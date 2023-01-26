@@ -95,10 +95,33 @@ section{
    align-items: center;
    justify-content: space-between;
 }
+
 .img-down{
    display: flex;
    justify-content: center;
    align-items: center;
+}
+.profile{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+.dropdown{
+   height: 9rem;
+   width: 20rem;
+   background-color: #fff;
+   display: flex;
+   flex-direction: column;
+}#line{
+   margin-left: 10%;
+   width: 80%;
+   background-color: black;
+   height: 1px;
+
+}
+.inner-box{
+   border: 0px 1px 0px 0px solid black;
 }
 .header .flex .logo{
    font-size: 2.5rem;
